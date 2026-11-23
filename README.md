@@ -39,9 +39,19 @@ En la obra también se nota: el conectoma real ocupa todo el lienzo y los contro
 
 ![Comparación contra los controles](docs/imagenes/f1-comparacion-controles.png)
 
-| Cuerpo 3D en MuJoCo | Lienzo pintado con seis patas |
+La misma comparación en la versión pixel art: el real a la izquierda, después los tres controles.
+
+![Comparación en pixel art: conectoma real y tres controles](docs/imagenes/f1-comparacion-pixel.png)
+
+## Galería
+
+| Obra continua (12 s de actividad) | Obra continua (40 s de actividad) |
 |---|---|
-| ![Mosca 3D](docs/imagenes/f2-mosca-3d.png) | ![Lienzo de seis patas](docs/imagenes/f2-canvas-seis-patas.png) |
+| ![Obra continua tras 12 segundos](docs/imagenes/f1-cobertura-12s.png) | ![Obra continua tras 40 segundos](docs/imagenes/f1-cobertura-40s.png) |
+| **Cuerpo 3D en MuJoCo** | **La mosca pintando con seis patas** |
+| ![Mosca 3D](docs/imagenes/f2-mosca-3d.png) | ![Mosca 3D sobre el lienzo, con las seis patas](docs/imagenes/f2-seis-patas.png) |
+| **Lienzo pintado con el cuerpo 3D** | **Lienzo pintado con seis patas** |
+| ![Lienzo del cuerpo 3D](docs/imagenes/f2-canvas-3d.png) | ![Lienzo de seis patas](docs/imagenes/f2-canvas-seis-patas.png) |
 
 ## Reglas del proyecto
 
