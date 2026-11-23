@@ -1,0 +1,30 @@
+# datos pesados del conectoma
+data/
+*.npz
+*.feather
+
+# entornos
+.venv*/
+__pycache__/
+*.pyc
+
+# salidas
+out/
+frames/
+*.mp4
+*.png
+!docs/**/*.png
+checkpoints/
+
+# credenciales, nunca
+*.env
+!*.env.example
+
+# macOS
+.DS_Store
+
+# trazas generadas
+out/
+
+# artefactos de build de Python
+*.egg-info/

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "artfly"
+version = "0.1.0"
+description = "La mosca que pinta: decodificador de pluma, lienzo y cuerpo"
+requires-python = ">=3.10"
+# El nucleo no depende ni de flybrain ni de flybody a proposito: tiene que poder
+# instalarse en los dos entornos, que no pueden convivir (flybody fija
+# numpy==1.26.4 y flybrain quiere 2.x). Ver ARQUITECTURA.md 3.2.
+dependencies = ["numpy", "pillow"]
+
+[project.optional-dependencies]
+brain = ["flybrain"]                 # entorno brain: simulacion y trazas
+body = ["flybody", "dm_control"]     # entorno body: cuerpo 3D e IK
+
+[tool.setuptools.packages.find]
+include = ["artfly*"]
